@@ -1,0 +1,3 @@
+#!/bin/sh
+# Blocks commits that contain secrets. Enabled by `npm run setup:hooks` (runs automatically after `npm install`).
+node scripts/check-secrets.mjs --staged
